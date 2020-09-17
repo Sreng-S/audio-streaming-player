@@ -1,0 +1,53 @@
+{
+  "name": "inaday-admin",
+  "version": "0.1.2",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "firebase": "^5.8.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "p-iteration": "^1.1.7",
+    "papaparse": "^4.6.3",
+    "rc-checkbox": "^2.1.6",
+    "react": "^16.8.1",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-csv": "^1.1.1",
+    "react-datepicker": "^2.1.0",
+    "react-dom": "^16.8.1",
+    "react-firebase-file-uploader": "^2.4.2",
+    "react-js-pagination": "^3.0.2",
+    "react-phone-number-input": "^2.3.18",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "react-select": "^2.4.0",
+    "react-switch": "^4.0.1",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "admin:start": "./node_modules/.bin/react-scripts start",
+    "build": "./node_modules/.bin/react-scripts build",
+    "test": "./node_modules/.bin/react-scripts test",
+    "eject": "./node_modules/.bin/react-scripts eject",
+    "lint": "./node_modules/.bin/eslint --ext .js --ext .jsx src/ --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "9.0.0",
+    "babel-loader": "8.0.4",
+    "eslint": "5.6.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^1.3.1"
+  }
+}

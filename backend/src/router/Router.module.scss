@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+
+  header {
+    background-color: #03a9f4;
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+  }
+  .container {
+    height: calc(100vh - 60px);
+    display: flex;
+
+    .sidebar {
+      width: 200px;
+      padding: 16px;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 4px;
+
+      .menuitem {
+        display: block;
+        padding: 16px 0px;
+        color: #757575;
+        text-decoration: none;
+        font-size: 18px;
+
+        &:active {
+          opacity: 0.5;
+        }
+      }
+
+      .menuitem-selected {
+        color: #555555;
+        font-weight: bold;
+      }
+    }
+
+    .content {
+      flex: 1;
+      overflow: auto;
+    }
+  }
+}

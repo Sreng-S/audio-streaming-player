@@ -1,0 +1,177 @@
+@import "theme/colors.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  .container {
+    border: 1px solid $light-grey;
+    padding: 20px;
+    margin-bottom: 50px;
+
+    h2 {
+      font-weight: 600;
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .iconRemove {
+        font-size: 32px;
+        color: $danger;
+
+        &:active {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .btnAddMore {
+      font-size: 18px;
+      text-decoration: underline;
+      font-weight: 600;
+      color: $primary;
+      cursor: pointer;
+
+      &:active {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+    .selectorspan {
+      width: 200px;
+    }
+  }
+
+  .inputItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+    span {
+      width: 200px;
+    }
+
+    input {
+      height: 40px;
+      width: 300px;
+      font-size: 16px;
+      padding: 0 20px;
+    }
+    .file {
+      display: none;
+    }
+    .image {
+      width: 40px;
+      height: 40px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .docspan {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .btnUpload {
+      width: 200px;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: 600;
+      text-align: center;
+      color: $grey;
+      align-items: center;
+      border: 1px solid $grey;
+      cursor: pointer;
+
+      .icon {
+        margin-right: 5px;
+      }
+
+      &:active {
+        background-color: $grey;
+        color: $white;
+      }
+    }
+  }
+
+  .btnGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+
+    .btnSave {
+      width: 100px;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: 600;
+      text-align: center;
+      color: $primary;
+      align-items: center;
+      border: 1px solid $primary;
+      cursor: pointer;
+      margin-right: 50px;
+
+      &:active {
+        background-color: $primary;
+        color: $white;
+      }
+    }
+
+    .btnCancel {
+      width: 100px;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: 600;
+      text-align: center;
+      color: $danger;
+      align-items: center;
+      border: 1px solid $danger;
+      cursor: pointer;
+
+      &:active {
+        background-color: $danger;
+        color: $white;
+      }
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+
+  th {
+    padding: 10px 10px;
+    background-color: #eee;
+  }
+
+  td {
+    padding: 10px 10px;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid $light-grey;
+    text-align: center;
+  }
+}
